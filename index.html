@@ -11,11 +11,11 @@
       async function initMap() {
         await ymaps3.ready
 
-        const { YMap, YMapDefaultSchemeLayer, YMapFeature } = ymaps3
+        const { YMap, YMapDefaultSchemeLayer, YMapFeature, YMapMarker } = ymaps3
 
         const map = new YMap(document.getElementById('map'), {
           location: {
-            center: [37.588144, 55.733842],
+            center: [55.498464, 37.426905],
             zoom: 10,
           },
         })
